@@ -42,7 +42,8 @@
   * [Usage](sick2step/usage.md)
 * [📄 SickReports](sickreports/README.md)
   * [Options](sickreports/options.md)
-* [🇫🇲 SickSafeZones](sicksafezones.md)
+* [🇫🇲 SickSafeZones](sicksafezones/README.md)
+  * [Info](sicksafezones/info.md)
 
 ## QBCore
 
