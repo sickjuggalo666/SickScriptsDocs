@@ -16,7 +16,7 @@
   * [Events](esx-scripts/sicklockers/events.md)
 * [🎟 SickFines-PEFCL](esx-scripts/sickfines-pefcl/README.md)
   * [Events](esx-scripts/sickfines-pefcl/events.md)
-* [🧑💼 🧑💼 SickTraders](esx-scripts/sicktraders/README.md)
+* [🧑💼 SickTraders](esx-scripts/sicktraders/README.md)
   * [Traders](esx-scripts/sicktraders/traders.md)
 * [🌭 SickFoodStands](esx-scripts/sickfoodstands.md)
 * [🍔 SickUpNAtom](esx-scripts/sickupnatom/README.md)
