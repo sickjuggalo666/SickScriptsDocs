@@ -8,8 +8,10 @@
 ## ESX Scripts
 
 * [👮 SickDirtyCops](esx-scripts/sickdirtycops/README.md)
+  * [Robbery Trigger](esx-scripts/sickdirtycops/robbery-trigger.md)
   * [Installation](esx-scripts/sickdirtycops/installation.md)
   * [Config](esx-scripts/sickdirtycops/config.md)
+  * [Buy/Sell Shop](esx-scripts/sickdirtycops/buy-sell-shop.md)
 * [🌱 SickTrapHouses](esx-scripts/sicktraphouses/README.md)
   * [Events](esx-scripts/sicktraphouses/events.md)
 * [📎 SickLockers](esx-scripts/sicklockers/README.md)
