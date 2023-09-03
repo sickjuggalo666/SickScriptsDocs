@@ -11,7 +11,7 @@
 
 💥 Uses GKSPhone for emails on heist info, But is open for you to change if needed! (Other Phones will be supported soon)
 
-Ox\_libs is supported for all menus expect robberies as I work the kinks out of that one! It's a config option so if you are using zf\_context you are still good!!!
+Ox\_libs is supported for all menus
 {% endhint %}
 
 {% hint style="danger" %}
