@@ -14,19 +14,26 @@ If you are using Ox\_inventory I have provided the needed code to add to items.l
 {% tab title="Not Using Ox_Inventory" %}
 ```sql
 INSERT INTO `items` VALUES (`name`,`label`,`weight`)
-('2step', '2Step Module', 10);
+('2step', '2Step Module', 10),
+('2step_checker', '2Step Module Checker', 10);
 ```
 {% endtab %}
 
 {% tab title="Using Ox_Inventory" %}
-```lua
-['2step'] = {
-	label = '2 Step Module',
+<pre class="language-lua"><code class="lang-lua"><strong>['2step'] = {
+</strong>	label = '2Step Module',
 	weight = 1,
 	stack = true,
 	close = true,
 	description = 'Bang Bang'
 },
-```
+['2step_Checker'] = {
+	label = '2Step Module Checker',
+	weight = 1,
+	stack = true,
+	close = true,
+	description = 'For Checking 2Step Modules'
+},
+</code></pre>
 {% endtab %}
 {% endtabs %}
