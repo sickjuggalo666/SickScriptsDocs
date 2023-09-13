@@ -4,6 +4,7 @@
 
 * [💡 SickScripts](README.md)
 * [✨ Useful Links](overview/useful-links.md)
+* [🎯 Newest ESX](overview/newest-esx.md)
 
 ## ESX Scripts
 
