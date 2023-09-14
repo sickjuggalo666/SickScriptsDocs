@@ -47,6 +47,9 @@
   * [Options](sickreports/options.md)
 * [🇫🇲 SickSafeZones](sicksafezones/README.md)
   * [Info](sicksafezones/info.md)
+* [💣 SickCarBombs](sickcarbombs/README.md)
+  * [Items](sickcarbombs/items.md)
+  * [Config](sickcarbombs/config.md)
 
 ## QBCore
 
