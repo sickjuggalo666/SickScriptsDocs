@@ -20,20 +20,27 @@ INSERT INTO `items` VALUES (`name`,`label`,`weight`)
 {% endtab %}
 
 {% tab title="Using Ox_Inventory" %}
-<pre class="language-lua"><code class="lang-lua"><strong>['2step'] = {
-</strong>	label = '2Step Module',
-	weight = 1,
-	stack = true,
-	close = true,
-	description = 'Bang Bang'
-},
-['2step_Checker'] = {
+```lua
+['2step_checker'] = {
 	label = '2Step Module Checker',
 	weight = 1,
 	stack = true,
 	close = true,
-	description = 'For Checking 2Step Modules'
+	description = 'Check A Vehicle for 2Step Modules',
+	client = {
+		export = 'Sick2Step.2step_checker'
+	},
 },
-</code></pre>
+['2step'] = {
+	label = '2Step Module',
+	weight = 1,
+	stack = true,
+	close = true,
+	description = 'Bang Bang',
+	client = {
+		export = 'Sick2Step.2step'
+	},
+},
+```
 {% endtab %}
 {% endtabs %}

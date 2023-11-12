@@ -13,6 +13,7 @@
   * [Installation](esx-scripts/sickdirtycops/installation.md)
   * [Config](esx-scripts/sickdirtycops/config.md)
   * [Buy/Sell Shop](esx-scripts/sickdirtycops/buy-sell-shop.md)
+  * [Updates](esx-scripts/sickdirtycops/updates.md)
 * [🌱 SickTrapHouses](esx-scripts/sicktraphouses/README.md)
   * [Events](esx-scripts/sicktraphouses/events.md)
 * [📎 SickLockers](esx-scripts/sicklockers/README.md)
