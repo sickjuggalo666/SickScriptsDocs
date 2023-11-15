@@ -14,6 +14,7 @@
   * [Config](esx-scripts/sickdirtycops/config.md)
   * [Buy/Sell Shop](esx-scripts/sickdirtycops/buy-sell-shop.md)
   * [Updates](esx-scripts/sickdirtycops/updates.md)
+  * [Custom Events](esx-scripts/sickdirtycops/custom-events.md)
 * [💰 SickMoneyWash](esx-scripts/sickdirtycops-1/README.md)
   * [Usage](esx-scripts/sickdirtycops-1/installation.md)
   * [Config](esx-scripts/sickdirtycops-1/config.md)
