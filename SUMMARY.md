@@ -6,18 +6,22 @@
 * [✨ Useful Links](overview/useful-links.md)
 * [🎯 Newest ESX](overview/newest-esx.md)
 
+***
+
+* [Shared Framework](shared-framework/README.md)
+  * [👮 SickDirtyCops](shared-framework/sickdirtycops/README.md)
+    * [Robbery Trigger](shared-framework/sickdirtycops/robbery-trigger.md)
+    * [Installation](shared-framework/sickdirtycops/installation.md)
+    * [Config](shared-framework/sickdirtycops/config.md)
+    * [Buy/Sell Shop](shared-framework/sickdirtycops/buy-sell-shop.md)
+    * [Updates](shared-framework/sickdirtycops/updates.md)
+    * [Custom Events](shared-framework/sickdirtycops/custom-events.md)
+
 ## ESX Scripts
 
-* [👮 SickDirtyCops](esx-scripts/sickdirtycops/README.md)
-  * [Robbery Trigger](esx-scripts/sickdirtycops/robbery-trigger.md)
-  * [Installation](esx-scripts/sickdirtycops/installation.md)
+* [💰 SickMoneyWash](esx-scripts/sickdirtycops/README.md)
+  * [Usage](esx-scripts/sickdirtycops/installation.md)
   * [Config](esx-scripts/sickdirtycops/config.md)
-  * [Buy/Sell Shop](esx-scripts/sickdirtycops/buy-sell-shop.md)
-  * [Updates](esx-scripts/sickdirtycops/updates.md)
-  * [Custom Events](esx-scripts/sickdirtycops/custom-events.md)
-* [💰 SickMoneyWash](esx-scripts/sickdirtycops-1/README.md)
-  * [Usage](esx-scripts/sickdirtycops-1/installation.md)
-  * [Config](esx-scripts/sickdirtycops-1/config.md)
 * [🌱 SickTrapHouses](esx-scripts/sicktraphouses/README.md)
   * [Events](esx-scripts/sicktraphouses/events.md)
 * [📎 SickLockers](esx-scripts/sicklockers/README.md)

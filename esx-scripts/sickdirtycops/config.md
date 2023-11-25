@@ -3,187 +3,77 @@
 ```lua
 Config = {}
 
-Config.MenuType = 'ox_libs'
+Config.T1gerKeys = true
 
-Config.Price = 5000 -- price for checking cops AND making inventory
-Config.TruckPrice = 5000 -- price to check info on the truck heist
-Config.Inventory = 'ox'
-Config.Target = 'ox_target'
-Config.TruckUSB = 'greenusb'
-Config.PoliceJobName = {
-    'police'
-}
-Config.CashAccount = 'black_money'
-Config.TruckAccount = 'black_money'
-Config.NotificationType = { --['okokNotify' / 'mythic' / 'esx' / 'chat' / 'custom' ]
-    client = 'okokNotify', 
-    server = 'okokNotify'
-}
+Config.LaundryPin = 6669
 
-Config.GreenDongle = 'greenusb' -- item needed to open the Menu
+Config.UseEntrance = true -- set to false if you dont want to use the TP door to money wash
 
-Config.InventoryOptions = { 
-    inventoryType = "inventory",
-    inventorySubType = "housing",
-    inventoryLabel = "drop_box",
-    maxWeight = 100.0,
-    maxSlots = 10,
-    OxLabel = "Drop Box" -- If using ox inventory this matters if not its nothing
-}
+Config.CutItem = 'shear'
 
-Config.Peds = {
+Config.WashItem = 'dye' 
+
+Config.PackItem = 'plastic_wrap'
+
+Config.Percentage = 5
+
+Config.Blip = {
     [1] = {
-        Name = "Zeus Almighty",
-        TargetName = 'illegal_shop1',
-        SpawnName = 'IG_RoccoPelosi',
-        OpenTime = 1, -- Open Time
-        CloseTime = 8, -- Closing Time
-    },
-}
-
-Config.Locations = { -- NEW option for random locations!
-    [1] = {
-        coords = vector3(-1042.5310, -828.3828, 9.8815),
-        h = 127.6541,
-    },
-    [2] = {      
-        coords = vector3(-1033.1675, -836.6893, 9.8819),
-        h = 141.4699,
+        enabled = false,
+	    coords = vector3(244.5052, 374.24737, 105.73813),
+        BlipSpirte = 605,
+        BlipColor = 4,
+        BlipSize = 0.7,
+        BlipLabel = "Laundry",
     }
 }
 
-Config.TruckInfo = {
-    TruckPrice = 5000,
-    TruckLocation = vector3(569.46, -3127.42, 18.77)
+Config.tax = {
+    Percentage = 0.9,
 }
 
-Config.RobberyList = {
-    [1] = {
-        Header = "Fleeca Banks",
-        icon = 'fa-solid fa-bank',
-        minCops = 0,
-        bank = true,
+Config.TargetLocs = {
+    ["Enter"] = {
+        coords = vector3(244.5396, 374.3640, 105.7381),
     },
-    [2] = {
-        Header = "Store robbery",
-        icon = 'fa-solid fa-store',
-        minCops = 0,
-        bank = false, -- some just need to be here to help script function without error
+    ["Exit"] = {
+        coords = vector3(1138.0, -3198.96, -39.67),
     },
-    [3] = {
-        Header = "Pacific Bank",
-        icon = 'fa-solid fa-bank',
-        minCops = 0,
-        bank = true,
+    ["cuttingZone"] = {
+        coords = vector3(1122.2744, -3197.8213, -40.3933),
     },
-    [4] = {
-        Header = "House Robbery",
-        icon = 'fa-solid fa-house',
-        minCops = 0,
-        bank = false, -- some just need to be here to help script function without error
+    ["packageZone"] = {
+        coords = vector3(1120.12, -3197.88, -40.92),
     },
-    [5] = {
-        Header = "Truck Heist",
-        icon = 'fa-solid fa-truck',
-        minCops = 0,
-        bank = false,
+    ["washingZone"] = {
+        coords = vector3(1122.3478, -3193.7756, -40.3620),
     },
+    ["powerBox"] = {
+        coords = vector3(1115.3292, -3193.651, -40.99671),
+    }
+}
+
+Config.MoneyWash = {
+	["Enter"] = {
+        coords = vector4(244.5396, 374.3640, 105.7381, 337.4070),
+    },
+	["Exit"] = {
+        coords = vector4(1138.0, -3198.96, -39.67, 11.64),
+    }
+}
+
+Config.Laundry = {
+    cuttingZone = {
+        coords = vector3(1122.24, -3197.88, -40.4),
+        heading = 179.46,
+    },
+    packageZone = {
+        coord = vector3(1120.12, -3197.88, -39.92),
+        heading = 180.93,
+    },
+    washingZone = {
+        coord = vector3(1122.32, -3194.6, -40.4),
+        heading = 346.76,
+	}
 }
 ```
-
-
-
-## Notifications
-
-{% tabs %}
-{% tab title="Client Notifications" %}
-```lua
-function Cnotify(noty_type, message)
-    if noty_type and message then
-        if Config.NotificationType.client == 'esx' then
-            ESX.ShowNotification(message)
-        elseif Config.NotificationType.client == 'okokNotify' then
-            if noty_type == 1 then
-                exports['okokNotify']:Alert("Dongle", message, 10000, 'success')
-            elseif noty_type == 2 then
-                exports['okokNotify']:Alert("Dongle", message, 10000, 'info')
-            elseif noty_type == 3 then
-                exports['okokNotify']:Alert("Dongle", message, 10000, 'error')
-            end
-        elseif Config.NotificationType.client == 'mythic' then
-            if noty_type == 1 then
-                exports['mythic_notify']:SendAlert('success', message, { ['background-color'] = '#ffffff', ['color'] = '#000000' })
-            elseif noty_type == 2 then
-                exports['mythic_notify']:SendAlert('inform', message, { ['background-color'] = '#ffffff', ['color'] = '#000000' })
-            elseif noty_type == 3 then
-                exports['mythic_notify']:SendAlert('error', message, { ['background-color'] = '#ffffff', ['color'] = '#000000' })
-            end
-        elseif Config.NotificationType.client == 'chat' then
-            TriggerEvent('chatMessage', message)        
-        elseif Config.NotificationType.client == 'other' then
-            --add your own notification.       
-        end
-    end
-end
-```
-{% endtab %}
-
-{% tab title="Server Notifications" %}
-```lua
-function Snotify(source, noty_type, message) -- Not Needed as is but maybe future update
-    if source and noty_type and message then
-        if Config.NotificationType.server == 'esx' then
-            TriggerClientEvent('esx:showNotification', source, message)        
-        elseif Config.NotificationType.server == 'okokNotify' then
-            if noty_type == 1 then
-                TriggerClientEvent('okokNotify:Alert', source, 'Dongle', message, 10000, 'success')
-            elseif noty_type == 2 then
-                TriggerClientEvent('okokNotify:Alert', source, 'Dongle', message, 10000, 'info')
-            elseif noty_type == 3 then
-                TriggerClientEvent('okokNotify:Alert', source, 'Dongle', message, 10000, 'error')
-            end
-        elseif Config.NotificationType.server == 'mythic' then
-            if noty_type == 1 then
-                TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = message, style = { ['background-color'] = '#ffffff', ['color'] = '#000000' } })
-            elseif noty_type == 2 then
-                TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'inform', text = message, style = { ['background-color'] = '#ffffff', ['color'] = '#000000' } })
-            elseif noty_type == 3 then
-                TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = message, style = { ['background-color'] = '#ffffff', ['color'] = '#000000' } })
-            end
-        elseif Config.NotificationType.server == 'other' then
-            --add your own notification.
-        end
-    end
-end
-```
-{% endtab %}
-{% endtabs %}
-
-
-
-## Events/Exports
-
-
-
-{% hint style="info" %}
-These Events can be triggered to set the Robbery Status of Banks that will show in the menu letting Players know if the bank is ready to be robbed or not!
-{% endhint %}
-
-{% tabs %}
-{% tab title="Server Event" %}
-{% code overflow="wrap" %}
-```lua
-TriggerClientEvent('dongle:UpdateRobberyChecks', source, BOOLEN) --BOOLEN = (true or false)
-```
-{% endcode %}
-{% endtab %}
-
-{% tab title="Client Event" %}
-{% code overflow="wrap" %}
-```lua
-TriggerEvent('dongle:UpdateRobberyChecks', BOOLEN) --BOOLEN = (true or false)
-```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
-
