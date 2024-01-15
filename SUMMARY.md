@@ -16,16 +16,25 @@
     * [Buy/Sell Shop](shared-framework/sickdirtycops/buy-sell-shop.md)
     * [Updates](shared-framework/sickdirtycops/updates.md)
     * [Custom Events](shared-framework/sickdirtycops/custom-events.md)
+  * [🚗 Sick2Step](shared-framework/sick2step/README.md)
+    * [SetUp](shared-framework/sick2step/setup.md)
+    * [Usage](shared-framework/sick2step/usage.md)
+  * [🌱 SickTrapHouses](shared-framework/sicktraphouses/README.md)
+    * [Events](shared-framework/sicktraphouses/events.md)
+  * [🗒 SickWarrants](shared-framework/sickwarrants/README.md)
+    * [Events](shared-framework/sickwarrants/events.md)
+    * [Examples](shared-framework/sickwarrants/examples.md)
+  * [💣 SickCarBombs](shared-framework/sickcarbombs/README.md)
+    * [Items](shared-framework/sickcarbombs/items.md)
+    * [Config](shared-framework/sickcarbombs/config.md)
+  * [📎 SickLockers](shared-framework/sicklockers/README.md)
+    * [Events](shared-framework/sicklockers/events.md)
 
 ## ESX Scripts
 
 * [💰 SickMoneyWash](esx-scripts/sickdirtycops/README.md)
   * [Usage](esx-scripts/sickdirtycops/installation.md)
   * [Config](esx-scripts/sickdirtycops/config.md)
-* [🌱 SickTrapHouses](esx-scripts/sicktraphouses/README.md)
-  * [Events](esx-scripts/sicktraphouses/events.md)
-* [📎 SickLockers](esx-scripts/sicklockers/README.md)
-  * [Events](esx-scripts/sicklockers/events.md)
 * [🎟 SickFines-PEFCL](esx-scripts/sickfines-pefcl/README.md)
   * [Events](esx-scripts/sickfines-pefcl/events.md)
 * [🧑💼 SickTraders](esx-scripts/sicktraders/README.md)
@@ -36,9 +45,6 @@
   * [Ordering](esx-scripts/sickupnatom/ordering.md)
   * [Job Info](esx-scripts/sickupnatom/job-info.md)
   * [Boss Menu](esx-scripts/sickupnatom/boss-menu.md)
-* [🗒 SickWarrants](esx-scripts/sickwarrants/README.md)
-  * [Events](esx-scripts/sickwarrants/events.md)
-  * [Examples](esx-scripts/sickwarrants/examples.md)
 
 ***
 
@@ -49,9 +55,6 @@
   * [Drug Bag](sickjail/drug-bag.md)
   * [Prison Break](sickjail/prison-break.md)
   * [Stashes](sickjail/stashes.md)
-* [🚗 Sick2Step](sick2step/README.md)
-  * [SetUp](sick2step/setup.md)
-  * [Usage](sick2step/usage.md)
 * [📄 SickReports](sickreports/README.md)
   * [Options](sickreports/options.md)
 * [🇫🇲 SickSafeZones](sicksafezones/README.md)
@@ -59,9 +62,6 @@
   * [Music](sicksafezones/music.md)
   * [AirDrops](sicksafezones/airdrops.md)
   * [ScrapCars](sicksafezones/scrapcars.md)
-* [💣 SickCarBombs](sickcarbombs/README.md)
-  * [Items](sickcarbombs/items.md)
-  * [Config](sickcarbombs/config.md)
 
 ## QBCore
 
