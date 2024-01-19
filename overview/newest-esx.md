@@ -7,7 +7,7 @@ There will be two files that we will need to edit!\
 
 2. server/common.lua                                                                                                                                                  &#x20;
 
-![](../.gitbook/assets/image.png)![](<../.gitbook/assets/image (1).png>)
+![](../.gitbook/assets/image.png)![](<../.gitbook/assets/image (1) (2).png>)
 
 In both of these files you will find this snippet of code:
 
@@ -55,7 +55,7 @@ end)
 ```
 {% endcode %}
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 Little Video to help SEE what you need to do better!!
 

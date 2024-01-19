@@ -1,8 +1,6 @@
 # 🗒 SickWarrants
 
-{% embed url="https://github.com/sickjuggalo666/sickwarrants" %}
-SickWarrants
-{% endembed %}
+{% @github-files/github-code-block %}
 
 A WARRANT system for FiveM. Cops can set personal or vehicular warrants. Citizens can go to set locations you pick and use the event to check for warrants they may have. Cops only can delete active warrants. Bounties can be set by certain jobs.
 

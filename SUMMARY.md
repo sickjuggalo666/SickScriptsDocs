@@ -72,3 +72,4 @@
 * [🗒 SickWarrants](qbcore/sickwarrants/README.md)
   * [Events](qbcore/sickwarrants/events.md)
   * [Examples](qbcore/sickwarrants/examples.md)
+* [🏨 SickApartmentSelect](qbcore/sickwarrants-1.md)
