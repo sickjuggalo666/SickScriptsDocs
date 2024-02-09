@@ -6,29 +6,28 @@
 * [✨ Useful Links](overview/useful-links.md)
 * [🎯 Newest ESX](overview/newest-esx.md)
 
-***
+## Shared Framework
 
-* [Shared Framework](shared-framework/README.md)
-  * [👮 SickDirtyCops](shared-framework/sickdirtycops/README.md)
-    * [Robbery Trigger](shared-framework/sickdirtycops/robbery-trigger.md)
-    * [Installation](shared-framework/sickdirtycops/installation.md)
-    * [Config](shared-framework/sickdirtycops/config.md)
-    * [Buy/Sell Shop](shared-framework/sickdirtycops/buy-sell-shop.md)
-    * [Updates](shared-framework/sickdirtycops/updates.md)
-    * [Custom Events](shared-framework/sickdirtycops/custom-events.md)
-  * [🚗 Sick2Step](shared-framework/sick2step/README.md)
-    * [SetUp](shared-framework/sick2step/setup.md)
-    * [Usage](shared-framework/sick2step/usage.md)
-  * [🌱 SickTrapHouses](shared-framework/sicktraphouses/README.md)
-    * [Events](shared-framework/sicktraphouses/events.md)
-  * [🗒 SickWarrants](shared-framework/sickwarrants/README.md)
-    * [Events](shared-framework/sickwarrants/events.md)
-    * [Examples](shared-framework/sickwarrants/examples.md)
-  * [💣 SickCarBombs](shared-framework/sickcarbombs/README.md)
-    * [Items](shared-framework/sickcarbombs/items.md)
-    * [Config](shared-framework/sickcarbombs/config.md)
-  * [📎 SickLockers](shared-framework/sicklockers/README.md)
-    * [Events](shared-framework/sicklockers/events.md)
+* [👮 SickDirtyCops](shared-framework/sickdirtycops/README.md)
+  * [Robbery Trigger](shared-framework/sickdirtycops/robbery-trigger.md)
+  * [Installation](shared-framework/sickdirtycops/installation.md)
+  * [Config](shared-framework/sickdirtycops/config.md)
+  * [Buy/Sell Shop](shared-framework/sickdirtycops/buy-sell-shop.md)
+  * [Updates](shared-framework/sickdirtycops/updates.md)
+  * [Custom Events](shared-framework/sickdirtycops/custom-events.md)
+* [🚗 Sick2Step](shared-framework/sick2step/README.md)
+  * [SetUp](shared-framework/sick2step/setup.md)
+  * [Usage](shared-framework/sick2step/usage.md)
+* [🌱 SickTrapHouses](shared-framework/sicktraphouses/README.md)
+  * [Events](shared-framework/sicktraphouses/events.md)
+* [🗒 SickWarrants](shared-framework/sickwarrants/README.md)
+  * [Events](shared-framework/sickwarrants/events.md)
+  * [Examples](shared-framework/sickwarrants/examples.md)
+* [💣 SickCarBombs](shared-framework/sickcarbombs/README.md)
+  * [Items](shared-framework/sickcarbombs/items.md)
+  * [Config](shared-framework/sickcarbombs/config.md)
+* [📎 SickLockers](shared-framework/sicklockers/README.md)
+  * [Events](shared-framework/sicklockers/events.md)
 
 ## ESX Scripts
 
@@ -65,11 +64,4 @@
 
 ## QBCore
 
-* [📎 SickLockers](qbcore/sicklockers/README.md)
-  * [Events](qbcore/sicklockers/events.md)
-* [🌱 SickTrapHouses](qbcore/sicktraphouses/README.md)
-  * [Events](qbcore/sicktraphouses/events.md)
-* [🗒 SickWarrants](qbcore/sickwarrants/README.md)
-  * [Events](qbcore/sickwarrants/events.md)
-  * [Examples](qbcore/sickwarrants/examples.md)
-* [🏨 SickApartmentSelect](qbcore/sickwarrants-1.md)
+* [🏨 SickApartmentSelect](qbcore/sickwarrants.md)

@@ -1,8 +1,6 @@
 # 📎 SickLockers
 
-{% embed url="https://github.com/sickjuggalo666/SickEvidenceLockers" %}
-
-Hey there and thanks for checking out my script! I hope you can find many uses for it and will enjoy it as much as me and my cities have! we use MF\_Inventory before but have made the move to OX\_Inventory!
+{% @github-files/github-code-block %}
 
 
 
