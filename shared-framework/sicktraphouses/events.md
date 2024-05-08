@@ -35,3 +35,24 @@ Config.Gangs = {
     {name = 'vagos', GangName = 'Vagos', rank = 0}
 }
 ```
+
+
+
+## Adding New Items
+
+```lua
+[1] = {
+    name = 'weed', -- item name
+    amount = 1, -- how many at one time you want sold?
+    moneyName = 'black_money',  -- you can put any ITEM here!!! money / black_money for cash
+    moneyAmount = math.random(100,300),  -- Equation = { amount * moneyAmount = TotalAmount} E.X = { 1 * 100 = 100 }, { 2 * 100 = 200 }
+},
+```
+
+
+
+* Name = The Name of the input item (item to be exchanged)
+* amount = The amount of the above item to be removed
+* moneyName = any thing can be your money item or ANY item!! this is the item given in exchange for the above item!
+* moneyAmount = The amount of the 'moneyName' to give! math.random DO work here!
+
