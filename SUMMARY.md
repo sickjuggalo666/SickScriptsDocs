@@ -19,6 +19,7 @@
   * [SetUp](shared-framework/sick2step/setup.md)
   * [Usage](shared-framework/sick2step/usage.md)
 * [🌱 SickTrapHouses](shared-framework/sicktraphouses/README.md)
+  * [Installation](shared-framework/sicktraphouses/installation.md)
   * [Events](shared-framework/sicktraphouses/events.md)
 * [🗒️ SickWarrants](shared-framework/sickwarrants/README.md)
   * [Events](shared-framework/sickwarrants/events.md)
