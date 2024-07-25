@@ -1,4 +1,4 @@
-# 🎟 SickFines-PEFCL
+# 🎟️ SickFines-PEFCL
 
 ## Dependencies:
 

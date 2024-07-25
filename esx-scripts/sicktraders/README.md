@@ -1,4 +1,4 @@
-# 🧑💼 SickTraders
+# 🧑‍💼 SickTraders
 
 ## Config
 

@@ -1,4 +1,4 @@
-# 🗒 SickWarrants
+# 🗒️ SickWarrants
 
 {% embed url="https://github.com/sickjuggalo666/sickwarrants" %}
 SickWarrants
