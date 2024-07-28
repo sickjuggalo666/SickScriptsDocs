@@ -28,6 +28,7 @@
   * [Items](shared-framework/sickcarbombs/items.md)
   * [Config](shared-framework/sickcarbombs/config.md)
 * [📎 SickLockers](shared-framework/sicklockers/README.md)
+  * [Config](shared-framework/sicklockers/config.md)
   * [Events](shared-framework/sicklockers/events.md)
 * [💰 SickMoneyWash](shared-framework/sickdirtycops-1/README.md)
   * [Usage](shared-framework/sickdirtycops-1/installation.md)
