@@ -2,13 +2,9 @@
 
 There are a few different jobs you can do and as I further the script I will be adding more jobs into the script to allow players more things to do while in prison and also help them access other parts of the Prison! Jobs will pay out money or Cigarettes. Money can be used to buy items from the kitchen Commissary! Cigarettes are used to trade gangs for illegal items. Each job has a set amount of tasks you must complete before you are able to turn in and get your reward.
 
-
-
 {% hint style="info" %}
 More Jobs Will be added in the Future!
 {% endhint %}
-
-
 
 {% hint style="info" %}
 Future Features:
@@ -19,13 +15,9 @@ Future Features:
 4. Drug Baking
 {% endhint %}
 
-
-
 ## Legal Jobs
 
 Legal Prison Jobs will always reward you with money. This is able to be set in Config to give items as well or just the money!
-
-
 
 {% tabs %}
 {% tab title="Electrician" %}
@@ -46,12 +38,10 @@ Make different prison meals to turn in for pay! You will need supplies gathered 
 Someone left a huge mess in the infirmary. Your job is to go clean up the mess to earn your pay! Each mess can only be cleaned once and target will not be active during cleaning!
 {% endtab %}
 
-{% tab title="TrashTab" %}
-There is a guy on the yard who will give you a job to collect trash bags from around the yard! Every trash can can only be searched once and target is disabled while doing animation. No Spamming or Exploiting here!
+{% tab title="Trash" %}
+There is a guy on the yard who will give you a job to collect trash bags from around the yard! Every trash can only be searched once and target is disabled while doing animation. No Spamming or Exploiting here!
 {% endtab %}
 {% endtabs %}
-
-
 
 ## Illegal Jobs
 
@@ -76,8 +66,6 @@ Searching cells will reward you with hidden items! Good way to find Drugs while 
 A Shiv is a sharp object used to shank(stab) people in prison. Someone slipped up and told the gangs of their hidding spots. Go Search the spot and retrieve the Shiv!
 {% endtab %}
 {% endtabs %}
-
-
 
 ## Gangs
 

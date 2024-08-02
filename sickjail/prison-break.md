@@ -7,17 +7,15 @@ Working on more to the break out!
 ```lua
 {
     Codesign Keymaster: ['cd_keymaster'], 
-    mHacking: ['mHacking'], 
+    mHacking: ['mHacking'], -- support for these will be limited
     Modfreaks lockpick v1: ['lockpick'], -- support for these will be limited
     ModFreaks Lockpick v2: ['lockpickV2'] -- support for these will be limited
 }
 ```
 
 {% hint style="warning" %}
-Will Add more as we come accross more or if you have ideas let me know!
+Will Add more as we come across more or if you have ideas let me know!
 {% endhint %}
-
-
 
 ## Notifications
 
