@@ -1,5 +1,11 @@
 # 💣 SickCarBombs
 
+
+
+{% embed url="https://www.youtube.com/watch?t=2s&v=ofA_AJpswKw" %}
+New Video
+{% endembed %}
+
 {% embed url="https://www.youtube.com/watch?t=1s&v=u9PTopufXJA" %}
 \[[YouTube](https://www.youtube.com/watch?v=u9PTopufXJA)]
 {% endembed %}
