@@ -33,6 +33,11 @@
 * [💰 SickMoneyWash](shared-framework/sickdirtycops-1/README.md)
   * [Usage](shared-framework/sickdirtycops-1/installation.md)
   * [Config](shared-framework/sickdirtycops-1/config.md)
+* [🗺️ SickTeleport](shared-framework/sickteleport/README.md)
+  * [Installation](shared-framework/sickteleport/installation.md)
+  * [Default Locations](shared-framework/sickteleport/default-locations.md)
+  * [Donators](shared-framework/sickteleport/donators.md)
+  * [Weapons](shared-framework/sickteleport/weapons.md)
 
 ## ESX Scripts
 
