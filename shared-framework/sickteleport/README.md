@@ -27,3 +27,5 @@ If you choose you can use the built in particle effects for donators. Only set d
 ### Predefined Locations
 
 Some locations have come default in the Config. These can be changed/removed. Each timer is 60 seconds unless redefined in Config.
+
+{% embed url="https://youtu.be/Rds27h9VU64" %}
