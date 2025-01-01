@@ -30,6 +30,7 @@
 * [📎 SickLockers](shared-framework/sicklockers/README.md)
   * [Config](shared-framework/sicklockers/config.md)
   * [Events](shared-framework/sicklockers/events.md)
+  * [QBCore Users](shared-framework/sicklockers/qbcore-users.md)
 * [💰 SickMoneyWash](shared-framework/sickdirtycops-1/README.md)
   * [Usage](shared-framework/sickdirtycops-1/installation.md)
   * [Config](shared-framework/sickdirtycops-1/config.md)

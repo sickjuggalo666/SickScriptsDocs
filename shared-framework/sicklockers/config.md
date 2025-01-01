@@ -10,7 +10,7 @@ Config = {}
 
 Config.Framework = 'ESX' -- 'ESX' or 'QBCore'
 
-Config.Target = 'ox_target'
+Config.Target = 'ox_target' -- 'ox_target', 'qb-target'
 
 Config.SickDirtyCopsHeist = true -- COMING SOON
 
