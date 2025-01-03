@@ -82,9 +82,57 @@ Copy this into your table.. if its an empty table you can use the whole table I 
 {% hint style="danger" %}
 If you already have peds on the `Config.Peds` then make sure to change the index number to match what you have already!\
 \
-Also make sure `Config.Target = 'qb-target'` in SickLockers otherwise you will have duplication issues and errors from other systems.&#x20;
+Also make sure `Config.Target = 'qb-target'` in SickLockers otherwise you will have duplication issues and errors from other systems. \
+
 {% endhint %}
 
 {% hint style="info" %}
 Adding new peds for lockers is SUPER easy. Simply copy a job table and change the variables to match the new job you have set.&#x20;
 {% endhint %}
+
+
+
+## Lockers Config
+
+Also when using QB-Target make sure the `Config.locations`also has the job set in there. This is where the script checks and compares the configed job to the Player Job along with Rank.&#x20;
+
+### Example:
+
+{% code title="QBCore/shared/jobs.lua" lineNumbers="true" %}
+```lua
+    swat = {
+        label = 'Bay City SWAT Unit',
+        type = 'leo',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = { name = 'SWAT Corporal', payment = 130 },
+            ['1'] = { name = 'SWAT Sergeant', payment = 150 },
+            ['2'] = { name = 'SWAT Commander', isboss = true, payment = 185 },
+        },
+    },
+```
+{% endcode %}
+
+Above we have created a job for `Swat`in our core. This will now be active and usable in game. Next step will be to add this job to the Lockers Config so that they will work together!
+
+{% code title="Lockers/shared/main.lua" lineNumbers="true" %}
+```lua
+    {
+        UsePed = true,
+        coords = vector3(-214.3525, -1365.2156, 30.2748),
+        h = 159.3064,
+        job = 'swat',
+        AllowedRank = 0,
+        cop = true,
+        TargetLabel = 'Open Swat Lockers',
+        ped = 's_m_m_armoured_01'
+    },
+```
+{% endcode %}
+
+Here we have added the `Swat`job into the Lockers Config. From here the script will now function as intended.
+
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
