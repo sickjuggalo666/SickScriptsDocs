@@ -44,13 +44,7 @@ Example item:
 
 ### SQL
 
-To use and create home locations you need to create the database table. Here will store WHO the home location is for the Set Home Location and the Set Home Name. These variables are all changed by using the script. The Default one needs to be there as SQL is funny but its a small hiccup.&#x20;
-
-
-
-{% hint style="danger" %}
-ALWAYS keep one home location in the databases. If not the script will error.
-{% endhint %}
+To use and create home locations you need to create the database table. Here will store WHO the home location is for the Set Home Location and the Set Home Name. These variables are all changed by using the script.&#x20;
 
 {% code title="sql.sql" %}
 ```sql
