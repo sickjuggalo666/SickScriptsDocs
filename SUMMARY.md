@@ -38,7 +38,7 @@
   * [Installation](shared-framework/sickteleport/installation.md)
   * [Default Locations](shared-framework/sickteleport/default-locations.md)
   * [Donators](shared-framework/sickteleport/donators.md)
-  * [Weapons](shared-framework/sickteleport/weapons.md)
+  * [Config](shared-framework/sickteleport/config.md)
 
 ## ESX Scripts
 
